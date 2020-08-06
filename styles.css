@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+h1
+{
+    margin-top: 0;
+    color: #66bfbf;
+    
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+h2{
+    color: #66bfbf;
+    font-family: 'Merriweather', serif;
+    
+}
+.middle-container
+{
+    width: 30%;
+    margin: 100px auto 100px auto;
+}
+.top-container{
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 100px;
+
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+hr{
+    border: none;
+    border-top: dotted;
+    width: 10%;
+    height: 0;
+    border-color: grey;
+    border-width: 10px;
+}
+footer{
+    border: none;
+    border-top: inset;
+    border-width: 2px;
+    border-color: black;
+    background-color: #eaf6f6;
+}
+.graphic-img{
+    float: left;
+    margin-right: 20px;
+}
+.code-img{
+    float: right;
+    margin-left: 20px;
+}
+.skill-1{
+    width: 30%;
+    margin: 100px auto 100px auto;
+
+}
+.skill-2{
+    width: 30%;
+    margin: 100px auto 100px auto;
+
+}
+.skill-container{
+    margin: 100px auto 100px auto;
+}
+.contact-me{
+    margin: 100px auto 100px auto;
+    width: 30%;
+}
+.media{
+    width: 2.5%;
+    margin: 0 auto ;
+    padding: 50px;
+}
+p{
+    font-size: 15px;
+}
+.btn {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #66bfbf;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 25px auto 25px auto;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
